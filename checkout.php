@@ -11,7 +11,7 @@
    <fieldset>
     <legend>Order Details</legend>
 
-    <? 
+    <?php 
 
     if ( isset($_POST["submit"]) ) {
         if ($_POST["s5Q"] != 0 || $_POST["iMacQ"] != 0 || $_POST["alphaQ"] != 0 || $_POST["mlpQ"] != 0) {
