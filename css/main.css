@@ -107,3 +107,5 @@ label { width: 75px; display: block; float: left; padding: 10px 0px 10px 5px; ba
 .small > div { margin-bottom: 1em; }
 
 .right { float: right; }
+
+#thank-you { width: 24em; margin: 0 auto;}
