@@ -11,6 +11,7 @@
 
    <?php if ( isset($_REQUEST["checkout"]) ) { ?>
         <h2 id="thank-you">Thank you for your order!</h2>
+        <p>An email with your order details will be sent to <?= $_REQUEST["bilEmai"] ?> </p>
    <?php } else { ?>
    <fieldset>
     <legend>Order Details</legend>

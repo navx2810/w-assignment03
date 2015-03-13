@@ -108,4 +108,5 @@ label { width: 75px; display: block; float: left; padding: 10px 0px 10px 5px; ba
 
 .right { float: right; }
 
-#thank-you { width: 24em; margin: 0 auto;}
+#thank-you { width: 24em; margin: 0 auto; text-align: center; }
+.wide > p { text-align: center; margin-top: 1em; }
