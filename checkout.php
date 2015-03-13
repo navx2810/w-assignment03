@@ -23,13 +23,13 @@
         $message .= "<hr>";
 
         if ( $_COOKIE["s5Cost"] != 0)
-            $message .= "<p>Samsung Galaxy S5 - " . $_COOKIE["s5Cost"] . "</p>";
+            $message .= "<p>Samsung Galaxy S5 - $" . number_format($_COOKIE["s5Cost"], 2, ".", ",") . "</p>";
         if ( $_COOKIE["alphaCost"] != 0)
-            $message .= "<p>Alienware Alpha - " . $_COOKIE["alphaCost"] . "</p>";
+            $message .= "<p>Alienware Alpha - $" . number_format($_COOKIE["alphaCost"], 2, ".", ",") . "</p>";
         if ( $_COOKIE["iMacCost"] != 0)
-            $message .= "<p>iMac - " . $_COOKIE["iMacCost"] . "</p>";
+            $message .= "<p>iMac - $" . number_format($_COOKIE["iMacCost"], 2, ".", ",") . "</p>";
         if ( $_COOKIE["mlpCost"] != 0)
-            $message .= "<p>My Little Pony DVD Box Set - " . $_COOKIE["mlpCost"] . "</p>";
+            $message .= "<p>My Little Pony DVD Box Set - $" . number_format($_COOKIE["mlpCost"], 2, ".", ",") . "</p>";
 
         $message .= "<hr>";
 
@@ -44,7 +44,7 @@
         $message .= "<p>" . $_REQUEST["bilCity"] . "</p>";
         $message .= "<p>" . $_REQUEST["bilStat"] . "</p>";
         $message .= "<p>" . $_REQUEST["bilZip"] . "</p>";
-        $message .= "<p>" . $_REQUEST["bilPhon"] . "</p>";
+        $message .= '<a href="tel:' . $_REQUEST["bilPhon"] . ">' . $_REQUEST["bilPhon"] . "</a>";
         $message .= "<p>" . $_REQUEST["bilEmai"] . "</p> <br><br>";
 
         $message .= "<h2>Shipping Details</h2>";
