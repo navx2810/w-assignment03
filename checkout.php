@@ -44,7 +44,7 @@
         $message .= "<p>" . $_REQUEST["bilCity"] . "</p>";
         $message .= "<p>" . $_REQUEST["bilStat"] . "</p>";
         $message .= "<p>" . $_REQUEST["bilZip"] . "</p>";
-        $message .= '<a href="tel:' . $_REQUEST["bilPhon"] . ">' . $_REQUEST["bilPhon"] . "</a>";
+        $message .= '<a href="tel:' . $_REQUEST["bilPhon"] . '">' . $_REQUEST["bilPhon"] . "</a>";
         $message .= "<p>" . $_REQUEST["bilEmai"] . "</p> <br><br>";
 
         $message .= "<h2>Shipping Details</h2>";
