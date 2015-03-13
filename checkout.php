@@ -33,30 +33,27 @@
 
         $message .= "<hr>";
 
-        $message .= "<p>Sub-Total - $". $_COOKIE("subtotal") ."</p>";
-        $message .= "<p>Tax - $". $_COOKIE("tax") ."</p>";
-        $message .= "<p>Total - $". $_COOKIE("total") ."</p>";
+        $message .= "<p>Sub-Total - $" . $_COOKIE["subtotal"] ."</p>";
+        $message .= "<p>Tax - $" . $_COOKIE["tax"] ."</p>";
+        $message .= "<p>Total - $" . $_COOKIE["total"] ."</p>";
 
         $message .= "<br><br><h2>Billing Details</h2>";
-        $message .= "<p>". $_REQUEST["bilName"] ."</p>";
-        $message .= "<p>". $_REQUEST["bilAdd1"] ."</p>";
-        $message .= "<p>". $_REQUEST["bilAdd2"] ."</p> <br>";
-        $message .= "<p>". $_REQUEST["bilCity"] ."</p>";
-        $message .= "<p>". $_REQUEST["bilStat"] ."</p>";
-        $message .= "<p>". $_REQUEST["bilZip"] ."</p>";
-        $message .= "<p>". $_REQUEST["bilPhon"] ."</p>";
-        $message .= "<p>". $_REQUEST["bilEmai"] ."</p> <br><br>";
+        $message .= "<p>" . $_REQUEST["bilName"] . "</p>";
+        $message .= "<p>" . $_REQUEST["bilAdd1"] . "</p>";
+        $message .= "<p>" . $_REQUEST["bilAdd2"] . "</p> <br>";
+        $message .= "<p>" . $_REQUEST["bilCity"] . "</p>";
+        $message .= "<p>" . $_REQUEST["bilStat"] . "</p>";
+        $message .= "<p>" . $_REQUEST["bilZip"] . "</p>";
+        $message .= "<p>" . $_REQUEST["bilPhon"] . "</p>";
+        $message .= "<p>" . $_REQUEST["bilEmai"] . "</p> <br><br>";
 
         $message .= "<h2>Shipping Details</h2>";
-        $message .= "<p>". $_REQUEST["shiName"] ."</p>";
-        $message .= "<p>". $_REQUEST["shiAdd1"] ."</p>";
-        $message .= "<p>". $_REQUEST["shiAdd2"] ."</p> <br>";
-        $message .= "<p>". $_REQUEST["shiCity"] ."</p>";
-        $message .= "<p>". $_REQUEST["shiStat"] ."</p>";
-        $message .= "<p>". $_REQUEST["shiZip"] ."</p>";
-        $message .= "<p>". $_REQUEST["shiPhon"] ."</p>";
-        $message .= "<p>". $_REQUEST["shiEmai"] ."</p> <br><br>";
-
+        $message .= "<p>" . $_REQUEST["shiName"] . "</p>";
+        $message .= "<p>" . $_REQUEST["shiAdd1"] . "</p>";
+        $message .= "<p>" . $_REQUEST["shiAdd2"] . "</p> <br>";
+        $message .= "<p>" . $_REQUEST["shiCity"] . "</p>";
+        $message .= "<p>" . $_REQUEST["shiStat"] . "</p>";
+        $message .= "<p>" . $_REQUEST["shiZip"] . "</p>";
 
      ?>
 
