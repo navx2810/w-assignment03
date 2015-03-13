@@ -1,0 +1,109 @@
+* { margin: 0px; padding: 0px; font-family: 'Helvetica', sans-serif; color: #444;}
+
+body { margin: 1em; }
+
+form .item { margin-bottom: 20px; }
+.content, .content > h2 { margin-bottom: 20px; }
+
+.item {
+	width: 800px;
+	height: auto;
+}
+
+.box {
+	padding: 25px;
+	border: 1px dashed #285BAD;
+	height: auto;
+}
+
+.box > img {
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+dl {
+	width: 475px;
+	height: auto;
+	padding: 10px 10px;
+	float: left;
+}
+
+dt {
+	border-bottom: 1px solid #222;
+	font-weight: bold;
+}
+
+dd {
+	padding: 10px 0px 0px 10px;
+}
+
+dl > p { margin: 1em 0em 0em 2em; font-weight: bold; }
+
+.price {
+	padding-top: 10px;
+	width: 103px;
+	height: 100px;
+	float: left;
+}
+
+.price > p {
+	font-weight: bold;
+}
+
+.clear { clear: both; }
+
+.price > input { width: 3em; margin-top: 10px; text-align: center; }
+
+.gold { color: #ffd700; }
+
+#submit, #checkout { 
+	width: 14em;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	background: #fff;
+	border: 1px dashed #285BAD;
+	text-transform: capitalize;
+}
+
+
+nav {
+	width: 20%;
+	margin: 0% 5%;
+	float: left;
+}
+
+nav ul { list-style: none; }
+
+nav h2 { 
+	padding: 5px; color: #fff;
+	background: url("../imgs/tweed.png");
+	border-bottom: 2px solid red;
+}
+
+nav ul li { background: #ddd; color: #555; }
+
+nav a { text-decoration: none; display: block; }
+nav * { margin-bottom: 10px; }
+nav a p { padding: 5px; display: block;}
+
+.content { float: left; width: 40%; }
+
+
+hr{ display: block; margin: 10px 0px; }
+
+fieldset { padding: 40px; border: 1px dashed #555; margin-bottom: 1em; }
+fieldset ul { list-style: square; width: 419px; float: left; display: block; }
+fieldset .none{ float: right; width: 419px; list-style: none; text-align: right; }
+legend { background: #eee; padding: 5px 10px; }
+.small { width: 400px; float: left; }
+.wide { width: 1000px; }
+
+input[type="text"] { width: 318px; display: block; float: left; border: 1px dashed #82B7E2; padding: 10px 0px; }
+label { width: 75px; display: block; float: left; padding: 10px 0px 10px 5px; background: #82B7E2; }
+
+.small > div { margin-bottom: 1em; }
+
+.right { float: right; }
